@@ -1,0 +1,84 @@
+/*-- scss:defaults --*/
+// Nord — Snow Storm base. Frost cyan is too light for text on a light background,
+// so links/buttons use the deeper Frost blue (nord10) for readable contrast.
+$nord0: #2E3440;
+$nord1: #3B4252;
+$nord2: #434C5E;
+$nord3: #4C566A;
+$nord4: #D8DEE9;
+$nord5: #E5E9F0;
+$nord6: #ECEFF4;
+$nord7: #8FBCBB;
+$nord8: #88C0D0;
+$nord9: #81A1C1;
+$nord10: #5E81AC;
+$nord11: #BF616A;
+$nord12: #D08770;
+$nord13: #EBCB8B;
+$nord14: #A3BE8C;
+$nord15: #B48EAD;
+$link-deep: #4C6E97; // nord10 darkened for AA contrast on nord6
+
+$body-bg: $nord6;
+$body-color: $nord0;
+$body-secondary-color: $nord3;
+$headings-color: $nord0;
+
+$primary: $nord10;
+$secondary: $nord4;
+$success: #6E8F55;
+$info: $nord10;
+$warning: #B88A2E;
+$danger: $nord11;
+$light: $nord6;
+$dark: $nord0;
+
+$link-color: $link-deep;
+$link-hover-color: $nord10;
+$border-color: $nord4;
+$hr-border-color: $nord4;
+
+$navbar-bg: $nord5;
+$navbar-fg: $nord1;
+$navbar-hl: $nord10;
+$sidebar-bg: $nord5;
+$sidebar-fg: $nord1;
+$sidebar-hl: $nord10;
+$footer-bg: $nord5;
+$footer-fg: $nord3;
+$toc-color: $nord10;
+
+$code-color: #A3534C;
+$code-bg: $nord5;
+$code-block-bg: $nord5;
+$code-block-border-left: $nord10;
+
+$callout-color-note: $nord10;
+$callout-color-tip: #6E8F55;
+$callout-color-important: $nord15;
+$callout-color-caution: $nord12;
+$callout-color-warning: #B88A2E;
+
+/*-- scss:rules --*/
+:root {
+  --hv-bg: #{$nord6};
+  --hv-chrome: #{$nord5};
+  --hv-surface: #FFFFFF;
+  --hv-surface-2: #{$nord5};
+  --hv-border: #{$nord4};
+  --hv-text: #{$nord0};
+  --hv-muted: #{$nord3};
+  --hv-strong: #{$nord0};
+  --hv-accent: #{$nord10};
+  --hv-accent-2: #{$nord8};
+  --hv-accent-ink: #FFFFFF;
+  --hv-link: #{$link-deep};
+  --hv-frost-blue: #{$nord10};
+  --hv-red: #{$nord11};
+  --hv-orange: #B5654D;
+  --hv-yellow: #A67C21;
+  --hv-green: #5F7F48;
+  --hv-purple: #8F6A8A;
+  --hv-shadow: 0 6px 24px rgba(46, 52, 64, 0.08);
+  --hv-glow: rgba(94, 129, 172, 0.10);
+}

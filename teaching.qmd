@@ -1,0 +1,87 @@
+---
+title: "Teaching & Outreach"
+subtitle: "Explaining microbes, rocks and oceans to students and the public"
+description: "University courses taught and science outreach by Hrvoje Višić."
+---
+
+## University teaching
+
+::: {.hv-grid .hv-grid-2}
+
+::: {.hv-card .c-cyan}
+#### <i class="bi bi-mortarboard"></i> University of Tübingen
+- Alpine geomicrobiology field course
+- Geomicrobiology laboratory course
+:::
+
+::: {.hv-card .c-green}
+#### <i class="bi bi-mortarboard"></i> University of Zagreb
+- Microbiology of the ecosystem
+- Pelagial microbiology
+- Microbial ecology
+- Invertebrates (TA)
+- Protists (TA)
+:::
+
+:::
+
+## Science outreach
+
+::: {.hv-timeline}
+
+::: {.hv-tl-item}
+[2024]{.hv-date}
+
+### Lab science for school kids
+:::
+
+::: {.hv-tl-item}
+[2020 – 2021]{.hv-date}
+
+### Bioteka Association
+
+[Zagreb, Croatia]{.hv-where}
+
+NGO promoting science for talented children.
+:::
+
+::: {.hv-tl-item}
+[2019]{.hv-date}
+
+### Day and Night at PMF
+
+[Faculty of Science, University of Zagreb]{.hv-where}
+:::
+
+::: {.hv-tl-item}
+[2014 – 2017]{.hv-date}
+
+### Night of Biology
+
+[University of Zagreb]{.hv-where}
+:::
+
+::: {.hv-tl-item}
+[2015]{.hv-date}
+
+### Open Days of IRB and Science Picnic
+
+[Zagreb, Croatia]{.hv-where}
+:::
+
+::: {.hv-tl-item}
+[Mentor]{.hv-date}
+
+### BIUS Astrobiology Section
+
+[Biology Students Association, Zagreb]{.hv-where}
+
+Mentoring students in astrobiology projects.
+:::
+
+:::
+
+::: {.callout-note appearance="simple"}
+Interested in a school visit, a talk, or a student project on microbes and astrobiology?
+[Get in touch](mailto:hrvoje.visic@uni-tuebingen.de).
+:::

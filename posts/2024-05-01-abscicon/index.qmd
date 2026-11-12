@@ -1,0 +1,10 @@
+---
+title: "Talk at AbSciCon 2024"
+date: 2024-05-01
+description: "Forensic astrobiology: experimentally assessing the preservation of microorganisms from hydrothermal vent systems."
+categories: [talk, astrobiology]
+---
+
+I presented *Forensic Astrobiology: Experimentally Assessing the Preservation of
+Microorganisms Encompassing Hydrothermal Vent Systems* at the **Astrobiology Science
+Conference (AbSciCon) 2024**, together with J.-P. Duda, A. Kappler and M. Mansor.

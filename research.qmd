@@ -1,0 +1,190 @@
+---
+title: "Research"
+subtitle: "How do microbes turn into fossils, and how would we recognise them?"
+description: "Experimental taphonomy of sulfur- and iron-cycling bacterial mats under hydrothermal conditions: what survives, and what it means for early Earth and Mars."
+---
+
+::: {.callout-tip appearance="simple" icon="false"}
+## In one sentence
+I fossilize modern microbes in the lab, to help recognise them in ancient rocks and on other planets.
+:::
+
+::: {.panel-tabset}
+
+## For everyone
+
+Microbes were the only life on Earth for most of its history, and they are the most
+likely kind of life we could find elsewhere in the Solar System. The problem: bacteria
+are tiny, soft and easily destroyed. Over millions of years, heat and pressure in the
+Earth's crust rework rocks, and most microbial traces disappear or end up looking like
+ordinary minerals.
+
+So I run the process forward, in the lab. I grow mats of bacteria that live on sulfur
+and iron, let minerals form on and around them, and then put them in an autoclave that
+simulates being buried deep underground. Afterwards, I check which shapes, minerals and
+chemical fingerprints are still there.
+
+The result is a field guide to what a fossil microbe *should* look like, useful both for
+reading Earth's oldest rocks and for deciding which samples a Mars rover should bring home.
+
+## For scientists
+
+My research investigates how microbial biosignatures from sulfur- and iron-cycling
+bacterial mats are fossilized through **experimental taphonomy under hydrothermal
+conditions**. I combine geochemical, microbiological and mineralogical analyses to
+understand diagenetic processes relevant to the early Earth and astrobiology.
+
+Key questions:
+
+- Which **morphological biosignatures** (filaments, tubular sheaths, twisted stalks) survive
+  hydrothermal and low-grade metamorphic conditions?
+- Can **pyrite** and other iron sulfides retain microbial morphologies, and how do biogenic
+  pyrites differ from abiotic ones?
+- How do organic matter, mineral templates and fluid chemistry steer **preservation versus
+  degradation**?
+
+:::
+
+## Why it matters
+
+Correctly identifying ancient fossils, and linking them to the environments they lived in,
+lets us reconstruct past conditions on Earth and judge the habitability of other planets.
+False positives (minerals that *look* biological) are among the biggest problems in the
+search for early and extraterrestrial life. Experiments with known starting material are
+one of the few ways to calibrate what we see.
+
+## Approach
+
+::: {.hv-grid}
+
+::: {.hv-card .c-green}
+[<i class="bi bi-1-circle"></i>]{.hv-card-icon}
+
+#### Grow
+
+Enrichments and pure cultures of sulfur-oxidizing and iron-oxidizing bacteria forming mats, sheaths and stalks.
+:::
+
+::: {.hv-card .c-yellow}
+[<i class="bi bi-2-circle"></i>]{.hv-card-icon}
+
+#### Mineralize
+
+Encrust the biomass with iron (oxyhydr)oxides, iron sulfides and silica under anoxic, controlled chemistry.
+:::
+
+::: {.hv-card .c-orange}
+[<i class="bi bi-3-circle"></i>]{.hv-card-icon}
+
+#### Cook
+
+Experimental diagenesis in hydrothermal and HPHT autoclaves, simulating burial and low-grade metamorphism.
+:::
+
+::: {.hv-card .c-purple}
+[<i class="bi bi-4-circle"></i>]{.hv-card-icon}
+
+#### Analyse
+
+SEM-EDX, µRaman, µXRD, FTIR, SIMS, lipid biomarkers and synchrotron imaging to see what survived.
+:::
+
+:::
+
+## Current projects
+
+::: {.hv-grid .hv-grid-2}
+
+::: {.hv-card .c-yellow}
+[2025 · Sci Rep]{.hv-kicker}
+
+#### Filamentous sulfur mats under hydrothermal conditions
+
+Experimental diagenesis shows that biosignatures in filamentous sulfur mats can be preserved through hydrothermal treatment.
+
+::: {.hv-tags}
+[sulfur]{.hv-tag .sulfur} [diagenesis]{.hv-tag .mineral}
+:::
+:::
+
+::: {.hv-card .c-orange}
+[Submitted]{.hv-kicker}
+
+#### Iron-oxidizers as hidden sources of pyrite microfossils
+
+Tubular sheaths and twisted stalks of iron-oxidizing bacteria, pyritized during experimental diagenesis, as an overlooked origin of pyrite microfossils.
+
+::: {.hv-tags}
+[iron]{.hv-tag .iron} [pyrite]{.hv-tag .mineral}
+:::
+:::
+
+::: {.hv-card .c-red}
+[Submitted · with M. Mansor]{.hv-kicker}
+
+#### Iron-rich stalactites and Mars
+
+Geomicrobiology of iron-rich cave stalactites, and what it implies for the habitability of iron-rich deposits on Mars.
+
+::: {.hv-tags}
+[Mars]{.hv-tag .mars} [caves]{.hv-tag .microbe}
+:::
+:::
+
+::: {.hv-card .c-purple}
+[In preparation]{.hv-kicker}
+
+#### Microbial filaments under low metamorphic conditions
+
+How well do fossilized filamentous morphologies survive high-pressure, high-temperature (HPHT) autoclave treatment?
+
+::: {.hv-tags}
+[metamorphism]{.hv-tag .mineral} [morphology]{.hv-tag .microbe}
+:::
+:::
+
+:::
+
+Also contributing to work on **biogenic pyrite formation under Archean-like ferruginous
+conditions** (F. Sekerci et al., in prep.).
+
+## Toolbox
+
+From µRaman and SEM-EDX to anoxic cultivation, metabarcoding and the software behind it:
+the full list, with levels, is on the [Skills & Methods](skills.qmd) page.
+
+## Earlier research
+
+::: {.hv-grid .hv-grid-2}
+
+::: {.hv-card .c-cyan}
+#### <i class="bi bi-water"></i> North Pacific phytoplankton
+Chemotaxonomic and morphological analyses of plankton in contrasting trophic systems
+(MSc thesis; *PeerJ* 2023, Ocean Optics 2018).
+:::
+
+::: {.hv-card .c-green}
+#### <i class="bi bi-tsunami"></i> Sea-turtle microbiomes
+Metabarcoding of diatom biofilms on loggerhead sea turtles in the Mediterranean
+(TurtleBIOME project, 2018–2019).
+:::
+
+::: {.hv-card}
+#### <i class="bi bi-droplet-half"></i> Ecotoxicology
+Embryotoxic and genotoxic effects of wastewater on zebrafish embryos
+(*Water Research* 2017; Rector's award, University of Zagreb).
+:::
+
+::: {.hv-card .c-red}
+#### <i class="bi bi-globe-europe-africa"></i> Mars habitability
+BSc thesis: geological evidence of past habitability on the surface of Mars (2015),
+where the astrobiology started.
+:::
+
+:::
+
+## Collaborators
+
+Dr. Muammar Mansor, Prof. Dr. Jan-Peter Duda and Prof. Dr. Andreas Kappler (supervisors,
+University of Tübingen), together with colleagues in the
+[Geomicrobiology Group](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geo-und-umweltnaturwissenschaften/geo-und-umweltnaturwissenschaften/geomikrobiologie/arbeitsgruppe/people/).

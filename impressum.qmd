@@ -1,0 +1,160 @@
+---
+title: "Impressum & Privacy"
+subtitle: "Legal notice and privacy policy · Impressum und Datenschutzerklärung"
+description: "Legal notice (Impressum) and privacy policy (Datenschutzerklärung) for this website."
+toc-depth: 2
+---
+
+<!-- CHECK BEFORE PUBLISHING: postal address below (currently the group's institute address). -->
+
+::: {.callout-note appearance="simple"}
+This is a private, non-commercial website. It is **not** an official page of the University
+of Tübingen; views expressed here are my own.
+:::
+
+## Impressum
+
+**Angaben gemäß § 5 DDG / Information according to § 5 DDG**
+
+Hrvoje Višić\
+c/o Geomicrobiology, Department of Geosciences\
+Eberhard Karls Universität Tübingen\
+Schnarrenbergstraße 94–96\
+72076 Tübingen\
+Germany
+
+**Kontakt / Contact**\
+E-Mail: [hrvoje.visic@uni-tuebingen.de](mailto:hrvoje.visic@uni-tuebingen.de)
+
+**Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV / Responsible for content**\
+Hrvoje Višić (address as above)
+
+### Haftung für Inhalte / Liability for content
+
+Die Inhalte dieser Seite wurden mit größter Sorgfalt erstellt. Für die Richtigkeit,
+Vollständigkeit und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden.
+*The content of this site was created with care, but no guarantee is given for its accuracy,
+completeness or timeliness.*
+
+### Haftung für Links / Liability for links
+
+Diese Website enthält Links zu externen Websites Dritter, auf deren Inhalte ich keinen
+Einfluss habe. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder
+Betreiber verantwortlich. Bei Bekanntwerden von Rechtsverletzungen werden derartige Links
+umgehend entfernt.
+*This site links to external websites over whose content I have no control; their operators
+are responsible for their content. Links will be removed promptly if any infringement
+becomes known.*
+
+### Urheberrecht / Copyright
+
+Texte und eigene Fotos auf dieser Website unterliegen dem Urheberrecht. Abbildungen aus
+Publikationen unterliegen den Lizenzen der jeweiligen Verlage.
+*Texts and my own photos on this site are protected by copyright. Figures from publications
+are subject to the publishers' licences.*
+
+## Datenschutzerklärung / Privacy policy
+
+::: {.panel-tabset}
+
+## English
+
+### 1. Controller
+
+The controller within the meaning of the General Data Protection Regulation (GDPR) is
+Hrvoje Višić, address and email as given in the [Impressum](#impressum) above.
+
+### 2. Hosting by GitHub Pages
+
+This website is hosted on GitHub Pages, a service of GitHub, Inc., 88 Colin P. Kelly Jr.
+Street, San Francisco, CA 94107, USA. When you visit the site, GitHub processes technical
+access data (in particular your IP address, date and time of access, requested page and
+browser information) in server log files. This is necessary to deliver the website and to
+keep it secure. The legal basis is Art. 6(1)(f) GDPR (legitimate interest in a reliable and
+secure website). Data may be transferred to the USA; GitHub's parent company Microsoft is
+certified under the EU-U.S. Data Privacy Framework. I have no access to these logs. Details:
+[GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+
+### 3. No cookies, no tracking, no external fonts
+
+This website does not set cookies and does not use analytics, tracking, advertising or social
+media plugins. All fonts and icons are served from this website itself; no data is sent to
+Google Fonts or other content delivery networks.
+
+The site stores only your chosen colour scheme (light or dark) in your browser's local
+storage. This information never leaves your device and is strictly necessary for the function
+you requested (§ 25(2) no. 2 TDDDG). You can delete it at any time in your browser settings.
+
+### 4. Contact by email
+
+If you contact me by email, I process your email address and the content of your message
+in order to answer it (Art. 6(1)(b) or (f) GDPR). The data is deleted when it is no longer
+needed, unless legal retention obligations apply. Emails to the university address are
+processed on the university's mail servers.
+
+### 5. External links
+
+Links to external sites (e.g. GitHub, ORCID, journals, the University of Tübingen) are plain
+links. Data is only transmitted to those sites when you click them; their own privacy
+policies then apply.
+
+### 6. Your rights
+
+You have the right to access (Art. 15 GDPR), rectification (Art. 16), erasure (Art. 17),
+restriction of processing (Art. 18), data portability (Art. 20) and to object (Art. 21). You
+also have the right to lodge a complaint with a supervisory authority, for example the
+*Landesbeauftragte für den Datenschutz und die Informationsfreiheit Baden-Württemberg*,
+Lautenschlagerstraße 20, 70173 Stuttgart ([baden-wuerttemberg.datenschutz.de](https://www.baden-wuerttemberg.datenschutz.de)).
+
+## Deutsch
+
+### 1. Verantwortlicher
+
+Verantwortlich im Sinne der Datenschutz-Grundverordnung (DSGVO) ist Hrvoje Višić,
+Anschrift und E-Mail siehe [Impressum](#impressum).
+
+### 2. Hosting durch GitHub Pages
+
+Diese Website wird bei GitHub Pages gehostet, einem Dienst der GitHub, Inc., 88 Colin P.
+Kelly Jr. Street, San Francisco, CA 94107, USA. Beim Aufruf der Website verarbeitet GitHub
+technische Zugriffsdaten (insbesondere IP-Adresse, Datum und Uhrzeit, aufgerufene Seite,
+Browserinformationen) in Server-Logfiles. Dies ist zur Auslieferung und Sicherheit der
+Website erforderlich. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Eine Übermittlung in
+die USA ist möglich; die Muttergesellschaft Microsoft ist unter dem EU-U.S. Data Privacy
+Framework zertifiziert. Ich habe keinen Zugriff auf diese Logfiles. Weitere Informationen:
+[GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+
+### 3. Keine Cookies, kein Tracking, keine externen Schriftarten
+
+Diese Website setzt keine Cookies und verwendet keine Analyse-, Tracking-, Werbe- oder
+Social-Media-Dienste. Schriftarten und Icons werden direkt von dieser Website geladen; es
+werden keine Daten an Google Fonts oder andere Content-Delivery-Networks übertragen.
+
+Gespeichert wird lediglich die gewählte Farbdarstellung (hell/dunkel) im lokalen Speicher
+Ihres Browsers. Diese Information verlässt Ihr Gerät nicht und ist für die von Ihnen
+gewünschte Funktion unbedingt erforderlich (§ 25 Abs. 2 Nr. 2 TDDDG).
+
+### 4. Kontakt per E-Mail
+
+Wenn Sie mir eine E-Mail schreiben, verarbeite ich Ihre E-Mail-Adresse und den Inhalt
+Ihrer Nachricht zur Beantwortung (Art. 6 Abs. 1 lit. b bzw. f DSGVO). Die Daten werden
+gelöscht, sobald sie nicht mehr erforderlich sind, sofern keine gesetzlichen
+Aufbewahrungspflichten bestehen.
+
+### 5. Externe Links
+
+Links zu externen Websites (z. B. GitHub, ORCID, Fachzeitschriften, Universität Tübingen)
+sind einfache Hyperlinks. Daten werden erst beim Anklicken an diese Seiten übertragen; es
+gelten dann deren Datenschutzbestimmungen.
+
+### 6. Ihre Rechte
+
+Sie haben das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Löschung
+(Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und
+Widerspruch (Art. 21) sowie das Recht auf Beschwerde bei einer Aufsichtsbehörde, z. B. der
+*Landesbeauftragten für den Datenschutz und die Informationsfreiheit Baden-Württemberg*,
+Lautenschlagerstraße 20, 70173 Stuttgart.
+
+:::
+
+[Last updated: November 2026]{.hv-muted}

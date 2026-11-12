@@ -1,0 +1,224 @@
+---
+title: "Curriculum Vitae"
+subtitle: "Geomicrobiology · astrobiology · environmental science · oceanology"
+description: "CV of Hrvoje Višić: positions, education, internships, workshops, fieldwork and skills."
+toc-depth: 2
+---
+
+```{=html}
+<div class="hv-actions" style="margin-bottom:1.5rem">
+  <a class="btn btn-primary" href="files/CV.pdf" download><i class="bi bi-download"></i>Download CV (PDF)</a>
+  <a class="btn hv-btn-ghost" href="https://orcid.org/0000-0003-0406-5330"><i class="bi bi-person-badge"></i>ORCID 0000-0003-0406-5330</a>
+</div>
+```
+
+## Positions
+
+::: {.hv-timeline}
+
+::: {.hv-tl-item .current}
+[Sep 2022 – present]{.hv-date}
+
+### PhD Researcher
+
+[Geomicrobiology Group, University of Tübingen · DFG Emmy Noether Programme]{.hv-where}
+
+Experimental taphonomy of morphological biosignatures from sulfur- and iron-cycling bacterial
+mats under hydrothermal conditions. Also responsible for IT support and the group's website and
+server databases.
+
+*Supervisors:* Dr. Muammar Mansor, Prof. Dr. Jan-Peter Duda, Prof. Dr. Andreas Kappler
+:::
+
+::: {.hv-tl-item}
+[Jan 2022 – Jul 2022]{.hv-date}
+
+### Research Scientist
+
+[Geomicrobiology Group, University of Tübingen, Germany]{.hv-where}
+
+- Biogenic iron sulfide formation by sulfur-cycling microbes and microbial mats
+:::
+
+::: {.hv-tl-item}
+[Sep 2019 – Dec 2021]{.hv-date}
+
+### Scientific and Professional Associate
+
+[NovaDerm – NeoStratum, Zagreb, Croatia]{.hv-where}
+
+- Dermatological R&D, quality control and database management
+:::
+
+::: {.hv-tl-item}
+[Jul 2018 – Aug 2019]{.hv-date}
+
+### Research and Teaching Scientist
+
+[Laboratory for Biological Oceanography, University of Zagreb, Croatia]{.hv-where}
+
+- Fieldwork, eDNA metabarcoding, website, teaching and lab courses
+:::
+
+:::
+
+## Education
+
+::: {.hv-timeline}
+
+::: {.hv-tl-item .current}
+[Sep 2022 – present]{.hv-date}
+
+### Doctorate, Geosciences
+
+[University of Tübingen, Germany]{.hv-where}
+
+*Thesis:* Experimental taphonomy of morphological biosignatures from sulfur and iron cycling
+bacterial mats under hydrothermal conditions
+:::
+
+::: {.hv-tl-item}
+[Sep 2015 – Feb 2018]{.hv-date}
+
+### Master in Environmental Sciences
+
+[Faculty of Science, University of Zagreb, Croatia]{.hv-where}
+
+*Thesis:* Chemotaxonomic and morphological approach to phytoplankton analyses in contrasting
+trophic systems of North Pacific. *Supervisor:* Prof. Dr. Zrinka Ljubešić
+:::
+
+::: {.hv-tl-item}
+[Sep 2012 – Sep 2015]{.hv-date}
+
+### Bachelor in Environmental Sciences
+
+[Faculty of Science, University of Zagreb, Croatia]{.hv-where}
+
+*Thesis:* Geological evidences of previous habitability on the surface of Mars.
+*Supervisor:* Prof. Dr. Dražen Balen
+:::
+
+:::
+
+## Internships
+
+::: {.hv-timeline}
+
+::: {.hv-tl-item}
+[Jul – Sep 2016]{.hv-date}
+
+### Erasmus+ traineeship
+
+[DNA Repair Mechanisms and Human Disease Group, University of Oxford, UK]{.hv-where}
+
+Supervisor: Dr. Ivan Ahel
+:::
+
+::: {.hv-tl-item}
+[2015 – 2016]{.hv-date}
+
+### Evolution, Symbioses and Molecular Phylogenetics
+
+[University of Zagreb]{.hv-where}
+
+Led to Franjević et al. 2019.
+:::
+
+::: {.hv-tl-item}
+[2014 – 2015]{.hv-date}
+
+### Ecotoxicology Group
+
+[University of Zagreb]{.hv-where}
+
+Led to Babić et al. 2017.
+:::
+
+::: {.hv-tl-item}
+[2013 – 2018]{.hv-date}
+
+### Student representative, Biology Department Council
+
+[University of Zagreb]{.hv-where}
+:::
+
+:::
+
+## Workshops & schools
+
+::: {.hv-grid .hv-grid-2}
+
+::: {.hv-card}
+[Jun 2025]{.hv-date}
+
+#### Biominerals workshop
+University of Tübingen
+:::
+
+::: {.hv-card}
+[Jul 2023]{.hv-date}
+
+#### Tools in Biogeochemistry
+University of Tübingen
+:::
+
+::: {.hv-card}
+[Mar 2023]{.hv-date}
+
+#### Biosignatures Workshop
+University of Tübingen
+:::
+
+::: {.hv-card}
+[Jan 2023]{.hv-date}
+
+#### SwissSIMS Winterschool
+University of Lausanne
+:::
+
+::: {.hv-card}
+[Mar 2020]{.hv-date}
+
+#### Precambrian Paleoceanography
+University of Zagreb
+:::
+
+::: {.hv-card}
+[Mar 2019]{.hv-date}
+
+#### Eukaryotic Metabarcoding
+Physalia courses, Berlin
+:::
+
+::: {.hv-card}
+[Feb 2019]{.hv-date}
+
+#### DNAqua-Net Diatom Biomonitoring
+INRAE, Thonon-les-Bains, France
+:::
+
+::: {.hv-card}
+[Nov 2018]{.hv-date}
+
+#### Linux, HPC cluster Isabella, Python & R
+University Computing Centre Zagreb
+:::
+
+::: {.hv-card}
+[Nov 2015]{.hv-date}
+
+#### Conference organisation
+2nd Int. Conference on Evolution and Behaviour (technical team); International Student Conference on Environmental Sciences (organising team), Zagreb
+:::
+
+:::
+
+## Fieldwork
+
+See the [Fieldwork page](fieldwork.qmd) for the full list with photos.
+
+## Skills
+
+Languages, lab and field methods, software and IT skills, with levels, are on the
+[Skills & Methods](skills.qmd) page.

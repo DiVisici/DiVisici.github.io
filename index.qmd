@@ -1,0 +1,110 @@
+---
+title: "Hrvoje Višić"
+body-classes: hv-home
+description: "PhD researcher in geomicrobiology at the University of Tübingen. I fossilize modern microbes in the lab to help recognise them in ancient rocks and on other planets."
+toc: false
+listing:
+  id: latest-news
+  contents: posts
+  sort: "date desc"
+  type: default
+  max-items: 3
+  fields: [date, title, description]
+  date-format: "MMM YYYY"
+---
+
+```{=html}
+<section class="hv-hero">
+  <img class="hv-hero-photo" src="images/profile.webp" alt="Portrait of Hrvoje Višić">
+  <div>
+    <div class="hv-eyebrow">Geomicrobiology · Astrobiology</div>
+    <h1>Hrvoje Višić</h1>
+    <div class="hv-role">PhD researcher · Department of Geosciences, University of Tübingen</div>
+    <p class="hv-oneliner">I try to <em>fossilize modern microbes in the lab</em>, so that we can recognise their traces in ancient rocks, and one day on other planets.</p>
+    <div class="hv-actions">
+      <a class="btn btn-primary" href="research.html"><i class="bi bi-lightbulb"></i>My research</a>
+      <a class="btn hv-btn-ghost" href="publications.html"><i class="bi bi-journal-text"></i>Publications</a>
+      <a class="btn hv-btn-ghost" href="files/CV.pdf"><i class="bi bi-file-earmark-pdf"></i>CV (PDF)</a>
+      <a class="btn hv-btn-ghost" href="mailto:hrvoje.visic@uni-tuebingen.de"><i class="bi bi-envelope"></i>Email</a>
+    </div>
+  </div>
+</section>
+```
+
+## About me
+
+::: {.hv-lead}
+I am a geomicrobiologist from Croatia, doing my PhD in the
+[Geomicrobiology Group](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geo-und-umweltnaturwissenschaften/geo-und-umweltnaturwissenschaften/geomikrobiologie/arbeitsgruppe/people/)
+at the University of Tübingen, as part of a DFG Emmy Noether project.
+:::
+
+Bacteria have lived on Earth for more than three billion years, but they rarely leave
+clear fossils. I grow mats of sulfur- and iron-cycling bacteria, then "cook" them under
+hot, high-pressure conditions like those deep in the Earth's crust, to see which of their
+shapes and chemical traces survive. Knowing what a fossilized microbe looks like helps us
+read the oldest rocks on Earth, and tells rover missions what to look for on Mars.
+
+My path here went from environmental sciences in Zagreb (my bachelor thesis already
+asked whether Mars was once habitable), through North Pacific plankton, sea-turtle
+microbiomes and zebrafish ecotoxicology, to experimental fossilization.
+
+::: {.hv-tags}
+[sulfur bacteria]{.hv-tag .sulfur}
+[iron-oxidizers]{.hv-tag .iron}
+[experimental taphonomy]{.hv-tag .mineral}
+[biosignatures]{.hv-tag .microbe}
+[astrobiology · Mars]{.hv-tag .mars}
+[oceanology]{.hv-tag .ocean}
+[ecotoxicology]{.hv-tag .tox}
+:::
+
+## At a glance
+
+::: {.hv-grid}
+
+::: {.hv-card .c-cyan}
+[<i class="bi bi-lightbulb"></i>]{.hv-card-icon}
+
+[Research]{.hv-kicker}
+
+[How do microbes become fossils?](research.qmd){.hv-card-link .hv-card-title}
+
+Experimental diagenesis of bacterial mats under hydrothermal conditions.
+:::
+
+::: {.hv-card .c-orange}
+[<i class="bi bi-journal-check"></i>]{.hv-card-icon}
+
+[Latest paper · 2025]{.hv-kicker}
+
+[Biosignatures in sulfur mats survive hydrothermal conditions](publications.qmd){.hv-card-link .hv-card-title}
+
+*Scientific Reports* 15, 38114.
+:::
+
+::: {.hv-card .c-green}
+[<i class="bi bi-geo-alt"></i>]{.hv-card-icon}
+
+[Currently]{.hv-kicker}
+
+[PhD in Tübingen, since 2022](cv.qmd){.hv-card-link .hv-card-title}
+
+Supervised by Dr. Muammar Mansor, Prof. Jan-Peter Duda and Prof. Andreas Kappler.
+:::
+
+:::
+
+::: {.hv-stats}
+[[4]{.n}[published articles]{.l}]{.hv-stat}
+[[4]{.n}[papers submitted / in prep]{.l}]{.hv-stat}
+[[5]{.n}[conference talks]{.l}]{.hv-stat}
+[[8+]{.n}[field campaigns]{.l}]{.hv-stat}
+:::
+
+## Latest news
+
+::: {#latest-news}
+:::
+
+[All news →](news.qmd)

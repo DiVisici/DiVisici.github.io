@@ -1,0 +1,85 @@
+/*-- scss:defaults --*/
+// Nord — Polar Night base, Frost accents, Aurora for status colours
+$nord-darkest: #242933; // extended Polar Night, used for chrome (navbar / sidebar)
+$nord0: #2E3440;
+$nord1: #3B4252;
+$nord2: #434C5E;
+$nord3: #4C566A;
+$nord4: #D8DEE9;
+$nord5: #E5E9F0;
+$nord6: #ECEFF4;
+$nord7: #8FBCBB;
+$nord8: #88C0D0;
+$nord9: #81A1C1;
+$nord10: #5E81AC;
+$nord11: #BF616A;
+$nord12: #D08770;
+$nord13: #EBCB8B;
+$nord14: #A3BE8C;
+$nord15: #B48EAD;
+
+$body-bg: $nord0;
+$body-color: $nord4;
+$body-secondary-color: #A7B1C2;
+$headings-color: $nord6;
+
+$primary: $nord8;
+$secondary: $nord3;
+$success: $nord14;
+$info: $nord9;
+$warning: $nord13;
+$danger: $nord11;
+$light: $nord6;
+$dark: $nord1;
+
+$link-color: $nord8;
+$link-hover-color: $nord7;
+$border-color: $nord2;
+$hr-border-color: $nord3;
+
+$navbar-bg: $nord-darkest;
+$navbar-fg: $nord4;
+$navbar-hl: $nord8;
+$sidebar-bg: $nord-darkest;
+$sidebar-fg: $nord4;
+$sidebar-hl: $nord8;
+$footer-bg: $nord-darkest;
+$footer-fg: #A7B1C2;
+$toc-color: $nord8;
+
+$code-color: $nord13;
+$code-bg: $nord1;
+$code-block-bg: $nord1;
+$code-block-border-left: $nord8;
+
+$btn-color: $nord0;
+
+$callout-color-note: $nord9;
+$callout-color-tip: $nord14;
+$callout-color-important: $nord15;
+$callout-color-caution: $nord12;
+$callout-color-warning: $nord13;
+
+/*-- scss:rules --*/
+:root {
+  --hv-bg: #{$nord0};
+  --hv-chrome: #{$nord-darkest};
+  --hv-surface: #{$nord1};
+  --hv-surface-2: #{$nord2};
+  --hv-border: #{$nord2};
+  --hv-text: #{$nord4};
+  --hv-muted: #A7B1C2;
+  --hv-strong: #{$nord6};
+  --hv-accent: #{$nord8};
+  --hv-accent-2: #{$nord7};
+  --hv-accent-ink: #{$nord0};
+  --hv-link: #{$nord8};
+  --hv-frost-blue: #{$nord10};
+  --hv-red: #{$nord11};
+  --hv-orange: #{$nord12};
+  --hv-yellow: #{$nord13};
+  --hv-green: #{$nord14};
+  --hv-purple: #{$nord15};
+  --hv-shadow: 0 6px 24px rgba(0, 0, 0, 0.25);
+  --hv-glow: rgba(136, 192, 208, 0.12);
+}

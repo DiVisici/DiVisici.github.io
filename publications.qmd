@@ -1,0 +1,99 @@
+---
+title: "Publications"
+subtitle: "Articles, talks and conference contributions"
+description: "Peer-reviewed articles, conference talks and posters by Hrvoje Višić."
+toc-depth: 2
+---
+
+Full and current list on [ORCID](https://orcid.org/0000-0003-0406-5330).
+
+<!-- To add a DOI link, wrap the title: [Title](https://doi.org/10.xxxx/xxxxx){.hv-ptitle} -->
+
+## Peer-reviewed articles
+
+::: {.hv-pubs}
+- [2025]{.hv-year} [Experimental diagenesis reveals preservation of biosignatures in filamentous sulfur mats under hydrothermal conditions]{.hv-ptitle}
+  **Višić, H.**, Duda, J.-P., Fischer, S., Escudero, C., Sekerci, F., Kappler, A., Mansor, M. *Scientific Reports* 15, 38114.
+
+- [2023]{.hv-year} [Phytoplankton diversity and chemotaxonomy in contrasting North Pacific ecosystems]{.hv-ptitle}
+  Matek, A., Bosak, S., Šupraha, L., Neeley, A., **Višić, H.**, Cetinić, I., Ljubešić, Z. *PeerJ* 11.
+
+- [2019]{.hv-year} [Nova metoda genske identifikacije vrsta u integriranoj zaštiti šuma]{.hv-ptitle}
+  Franjević, M., Hrašovec, B., Blašković, P., **Višić, H.**, Franjević, D. *Naše Šume* 17(54/55), 45–48.
+
+- [2017]{.hv-year} [Embryotoxic and genotoxic effects of sewage effluents in zebrafish embryo using multiple endpoint testing]{.hv-ptitle}
+  Babić, S., Barišić, J., **Višić, H.**, Klobučar, R.S., Popović, N.T., Strunjak-Perović, I., Čož-Rakovac, R., Klobučar, G. *Water Research* 115, 9–21.
+:::
+
+## Submitted & in preparation
+
+::: {.hv-pubs}
+- [—]{.hv-year} [Iron-oxidizing bacteria as overlooked sources of pyrite microfossils: Evidence from experimental diagenesis of tubular sheaths and twisted stalks]{.hv-ptitle}
+  **Višić, H.**, Mansor, M., Fischer, S., Sekerci, F., Ilin, A. M., Little, C.T.S., Kappler, A., Duda, J.-P. [submitted]{.hv-status .submitted}
+
+- [—]{.hv-year} [Geomicrobiology of iron-rich stalactites: Implications for habitability of iron-rich deposits on Mars]{.hv-ptitle}
+  Mansor, M., **Višić, H.**, Dreher, C.L., Zirner, A., Markl, G., Mentzer, S.M., Duda, J.P., Escudero, C., Kappler, A. [submitted]{.hv-status .submitted}
+
+- [—]{.hv-year} [Survivability of experimentally fossilized filamentous microbial morphologies under low metamorphic conditions using HPHT autoclave]{.hv-ptitle}
+  **Višić, H.**, Mansor, M., Fischer, S., Kappler, A., Duda, J.-P. [in prep]{.hv-status .prep}
+
+- [—]{.hv-year} [Biogenic pyrite formation under Archean-like ferruginous conditions]{.hv-ptitle}
+  Sekerci, F., Wilsch-Bräuninger, W., **Višić, H.**, Fischer, S., Peiffer, S., Kappler, A., Mansor, M. [in prep]{.hv-status .prep}
+:::
+
+## Conference talks
+
+::: {.hv-pubs}
+- [2025]{.hv-year} [From the depths of the Earth to beyond: preservation potential of morphological iron biosignatures under diagenetic conditions]{.hv-ptitle}
+  **Višić, H.**, Fischer, S., Duda, J.P., Kappler, A., Mansor, M. *Biennial European Astrobiology Conference (BEACON)*. [talk]{.hv-status .oral}
+
+- [2024]{.hv-year} [Forensic astrobiology: experimentally assessing the preservation of microorganisms encompassing hydrothermal vent systems]{.hv-ptitle}
+  **Višić, H.**, Duda, J.P., Kappler, A., Mansor, M. *Astrobiology Science Conference (AbSciCon)*, 103-06. [talk]{.hv-status .oral}
+
+- [2020]{.hv-year} [How to watch the plankton from space]{.hv-ptitle}
+  **Višić, H.** *23rd Symposium of Biology Students in Europe*, 54. Groningen, Netherlands (virtual). [talk]{.hv-status .oral}
+
+- [2019]{.hv-year} [Metagenomic characterization of the surface biofilm on Mediterranean loggerhead sea turtles]{.hv-ptitle}
+  **Višić, H.**, Filek, K., Mucko, M., Trotta, A., Panagopoulou, A., Lukač, M., Corrente, M., Di Bello, A., Gračan, R., Bosak, S. *7th European Phycological Congress*, 59. Zagreb, Croatia. [talk]{.hv-status .oral}
+
+- [2017]{.hv-year} [Impact of wastewater effluents and contaminated sediments on zebrafish embryos using multiple endpoint testing]{.hv-ptitle}
+  **Višić, H.**, Babić, S., Barišić, J., Klobučar, G. *20th Symposium of Biology Students in Europe*, 52–53. Lund, Sweden. [talk]{.hv-status .oral}
+:::
+
+## Conference abstracts & posters
+
+::: {.hv-pubs}
+- [2023]{.hv-year} [Microbial pyrite formation: mineral morphology and precipitation kinetics]{.hv-ptitle}
+  Mansor, M., **Višić, H.**, Runge, E., Shuster, J., Fischer, S., Kappler, A., Duda, J.P. *ARPHA Conference Abstracts* 6, e106753.
+
+- [2022]{.hv-year} [The taphonomic fate of biominerals in hydrothermal sulfide systems: implications for the reconstruction of microbial life in deep time]{.hv-ptitle}
+  Runge, E., Mansor, M., Kappler, A., Pei, Y., **Višić, H.**, Domingos, J.-M., Werner, P., Duda, J.-P. *GeoMinKöln 2022*, Cologne, Germany. [talk]{.hv-status .oral}
+
+- [2022]{.hv-year} [Minerals and life: using pyrite as an indicator of microorganisms]{.hv-ptitle}
+  **Višić, H.**, Mansor, M. *SPP1833 "Building a habitable Earth", 6th General Meeting*, 21. Tübingen, Germany. [poster]{.hv-status .poster}
+
+- [2019]{.hv-year} [The TurtleBIOME project: insight into epizoic diatom communities on loggerhead sea turtles]{.hv-ptitle}
+  Van de Vijver, B., Filek, K., Gračan, R., Mucko, M., **Višić, H.**, Robert, K., Majewska, R., Frankovich, T.A., Ashworth, M.P., Bosak, S. *24th Nordic Diatomist Meeting*, 11. Stockholm, Sweden. [talk]{.hv-status .oral}
+
+- [2019]{.hv-year} [DNA metabarcoding and morphological analyses of the diatom biofilm associated with loggerhead sea turtles in the Mediterranean Sea]{.hv-ptitle}
+  Bosak, S., **Višić, H.**, Filek, K., Robert, K., Van de Vijver, B., Trotta, A., Panagopoulou, A., Majewska, R. *The Molecular Life of Diatoms*, 104. Norwich, UK. [poster]{.hv-status .poster}
+
+- [2018]{.hv-year} [Loggerhead sea turtle microbiome, TURTLEBIOME project: insight into endozoic and epizoic communities]{.hv-ptitle}
+  Bosak, S., Gračan, R., Mucko, M., **Višić, H.**, Filek, K., Gobić Medica, K., Mičić, M., Lukač, M., Basu, S., Orlić, S., Majewska, R., Frankovich, T.A., Ashworth, M.P., Van de Vijver, B. *6th Mediterranean Conference on Marine Turtles*, 152. Poreč, Croatia. [poster]{.hv-status .poster}
+
+- [2018]{.hv-year} [Multilayer approach to plankton analyses in contrasting trophic systems of North Pacific]{.hv-ptitle}
+  **Višić, H.**, Ljubešić, Z., Bosak, S., Neeley, A.R., Durkin, C.A., Estapa, M.L., Omand, M.M., Mucko, M., Barešić, A., Karwowska, Z., Cetinić, I. *Ocean Optics XXIV*, 249. Dubrovnik, Croatia. [poster]{.hv-status .poster}
+
+- [2018]{.hv-year} [In depth analyses of phytoplankton community in Northern Pacific during the Sea2Space particle investigation]{.hv-ptitle}
+  Ljubešić, Z., Bosak, S., Šupraha, L., Neeley, A.R., Durkin, C., Estapa, M., Omand, M., Mejdandžić, M., Barešić, A., Karwowska, Z., Cetinić, I., **Višić, H.** *Ocean Sciences Meeting*, Portland, Oregon, USA. [poster]{.hv-status .poster}
+
+- [2015]{.hv-year} [Evaluation of toxic potential of municipal waste waters from wastewater treatment plant by zebrafish embryo toxicity test]{.hv-ptitle}
+  Babić, S., Sauerborn Klobučar, R., Barišić, J., Klobučar, G., Kepec, S., **Višić, H.**, Barišić, J., Topić Popović, N., Strunjak-Perović, I., Čož-Rakovac, R. *12th Croatian Biological Congress*, 247–248. Sveti Martin na Muri, Croatia. [poster]{.hv-status .poster}
+:::
+
+## Awards
+
+::: {.hv-pubs}
+- [2017]{.hv-year} [Rector's award for individual scientific and artistic work, University of Zagreb]{.hv-ptitle}
+  **Višić, H.** Toxicity of contaminated sediment from the Sava River on zebrafish embryos (*Danio rerio*). [award]{.hv-status .award}
+:::

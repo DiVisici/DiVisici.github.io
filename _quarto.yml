@@ -1,0 +1,96 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - fonts/
+    - files/
+    - .nojekyll
+
+website:
+  site-url: "https://divisici.github.io"
+  title: "Hrvoje Višić"
+  description: "Geomicrobiologist and astrobiologist at the University of Tübingen — fossilizing modern microbes in the lab to recognise them in ancient rocks and on other planets."
+  favicon: images/favicon.svg
+  image: images/profile.webp
+  open-graph: true
+  page-navigation: false
+  back-to-top-navigation: true
+  bread-crumbs: false
+  search:
+    location: navbar
+    type: overlay
+
+  # Slim utility bar: name on the left, search + contact icons + light/dark toggle on the right.
+  # All page navigation lives in the left sidebar.
+  navbar:
+    title: "Hrvoje Višić"
+    collapse: false
+    right:
+      - icon: github
+        href: https://github.com/DiVisici
+        aria-label: GitHub
+      - text: "iD"
+        href: https://orcid.org/0000-0003-0406-5330
+        aria-label: ORCID
+      - icon: envelope
+        href: mailto:hrvoje.visic@uni-tuebingen.de
+        aria-label: Email
+
+  sidebar:
+    style: docked
+    collapse-level: 1
+    header: _sidebar-header.md
+    contents:
+      - href: index.qmd
+        text: Home
+        icon: house
+      - href: research.qmd
+        text: Research
+        icon: lightbulb
+      - href: publications.qmd
+        text: Publications
+        icon: journal-text
+      - href: cv.qmd
+        text: CV
+        icon: person-vcard
+      - href: skills.qmd
+        text: Skills & Methods
+        icon: tools
+      - text: "---"
+      - href: teaching.qmd
+        text: Teaching & Outreach
+        icon: easel
+      - href: news.qmd
+        text: News
+        icon: megaphone
+      - href: fieldwork.qmd
+        text: Fieldwork
+        icon: compass
+
+  page-footer:
+    left: "© 2026 Hrvoje Višić · Built with [Quarto](https://quarto.org) · [Nord](https://www.nordtheme.com) palette"
+    right:
+      - text: Impressum & Privacy
+        href: impressum.qmd
+
+format:
+  html:
+    # Dark is listed first, so it is the default; the toggle switches to light.
+    theme:
+      dark: [nord-dark.scss, nord.scss]
+      light: [nord-light.scss, nord.scss]
+    css: [fonts.css, styles.css]
+    filters: [skills.lua]
+    toc: true
+    toc-title: "On this page"
+    toc-location: right
+    smooth-scroll: true
+    link-external-icon: false
+    link-external-newwindow: true
+    lightbox: true
+    # No equations on the site, so don't load MathJax from a CDN (keeps the site free of
+    # third-party requests, see impressum.qmd). Switch to `mathjax` if you ever need math.
+    html-math-method: plain
+    highlight-style:
+      dark: nord
+      light: github

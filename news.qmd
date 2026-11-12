@@ -1,0 +1,15 @@
+---
+title: "News"
+subtitle: "Papers, talks, fieldwork and other updates"
+description: "News and short posts from Hrvoje Višić."
+toc: false
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  date-format: "D MMM YYYY"
+  feed: true
+---

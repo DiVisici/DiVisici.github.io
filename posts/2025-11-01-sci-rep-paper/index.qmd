@@ -1,0 +1,15 @@
+---
+title: "Paper out in Scientific Reports"
+date: 2025-11-01
+description: "Experimental diagenesis shows that biosignatures in filamentous sulfur mats can survive hydrothermal conditions."
+categories: [paper, sulfur]
+---
+
+Our study *Experimental diagenesis reveals preservation of biosignatures in filamentous sulfur
+mats under hydrothermal conditions* is now published in **Scientific Reports** (15, 38114).
+
+We grew filamentous sulfur mats in the lab and exposed them to hydrothermal conditions to test
+which morphological and chemical biosignatures persist. See the
+[Publications page](../../publications.qmd) for the full reference.
+
+<!-- TODO: add the DOI link and a figure from the paper -->

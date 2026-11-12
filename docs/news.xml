@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Hrvoje Višić</title>
+<link>https://divisici.github.io/news.html</link>
+<atom:link href="https://divisici.github.io/news.xml" rel="self" type="application/rss+xml"/>
+<description>News and short posts from Hrvoje Višić.</description>
+<image>
+<url>https://divisici.github.io/images/profile.webp</url>
+<title>Hrvoje Višić</title>
+<link>https://divisici.github.io/news.html</link>
+</image>
+<generator>quarto-1.11.9</generator>
+<lastBuildDate>Wed, 11 Nov 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>New website is live</title>
+  <link>https://divisici.github.io/posts/2026-11-12-new-website/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Welcome! This site collects my research on microbial fossilization, my publications, a web version of my CV, and photos from fieldwork. It is built with <a href="https://quarto.org">Quarto</a> and hosted on GitHub Pages. Try the moon/sun toggle in the top bar to switch between dark and light mode.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>news</category>
+  <guid>https://divisici.github.io/posts/2026-11-12-new-website/</guid>
+  <pubDate>Wed, 11 Nov 2026 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Paper out in Scientific Reports</title>
+  <link>https://divisici.github.io/posts/2025-11-01-sci-rep-paper/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Our study <em>Experimental diagenesis reveals preservation of biosignatures in filamentous sulfur mats under hydrothermal conditions</em> is now published in <strong>Scientific Reports</strong> (15, 38114).</p>
+<p>We grew filamentous sulfur mats in the lab and exposed them to hydrothermal conditions to test which morphological and chemical biosignatures persist. See the <a href="../../publications.html">Publications page</a> for the full reference.</p>
+<!-- TODO: add the DOI link and a figure from the paper -->
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>paper</category>
+  <category>sulfur</category>
+  <guid>https://divisici.github.io/posts/2025-11-01-sci-rep-paper/</guid>
+  <pubDate>Fri, 31 Oct 2025 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Talk at AbSciCon 2024</title>
+  <link>https://divisici.github.io/posts/2024-05-01-abscicon/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I presented <em>Forensic Astrobiology: Experimentally Assessing the Preservation of Microorganisms Encompassing Hydrothermal Vent Systems</em> at the <strong>Astrobiology Science Conference (AbSciCon) 2024</strong>, together with J.-P. Duda, A. Kappler and M. Mansor.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>talk</category>
+  <category>astrobiology</category>
+  <guid>https://divisici.github.io/posts/2024-05-01-abscicon/</guid>
+  <pubDate>Tue, 30 Apr 2024 22:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Nord favicon: a twisted iron stalk (Frost cyan) inside a Polar Night disc -->
+  <circle cx="32" cy="32" r="30" fill="#2E3440" stroke="#88C0D0" stroke-width="3"/>
+  <path d="M22 50 C 34 44, 18 36, 30 30 S 30 18, 42 14" fill="none" stroke="#88C0D0" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M26 50 C 38 44, 22 36, 34 30 S 34 18, 46 14" fill="none" stroke="#D08770" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+</svg>

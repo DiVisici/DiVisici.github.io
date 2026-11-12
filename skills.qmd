@@ -1,0 +1,234 @@
+---
+title: "Skills & Methods"
+subtitle: "Lab and field techniques, software and IT"
+description: "Laboratory and field methods, software, programming and IT skills of Hrvoje Višić, with self-assessed levels."
+toc: false
+page-layout: full
+---
+
+<!--
+  HOW TO EDIT
+  Each row is one line:  [Name]{.skill level=3 logo=python note="optional detail"}
+    level = 1 Basic · 2 Familiar · 3 Proficient · 4 Advanced · 5 Expert
+    logo  = a file name from images/logos/ (without .svg). Monochrome logos from simpleicons.org;
+            download more there and drop the .svg into images/logos/.
+    icon  = a Bootstrap icon name instead of a logo (icons.getbootstrap.com)
+    no logo/icon -> a two-letter monogram is shown.
+  Card colours: .c-cyan .c-green .c-yellow .c-orange .c-red .c-purple .c-blue
+-->
+
+Self-assessed levels:
+
+::: {.hv-legend}
+[Basic]{.skill level=1}
+[Familiar]{.skill level=2}
+[Proficient]{.skill level=3}
+[Advanced]{.skill level=4}
+[Expert]{.skill level=5}
+:::
+
+## Lab & field methods
+
+::: {.hv-grid .hv-skillgrid}
+
+::: {.hv-card .hv-skillcard .c-purple}
+### <i class="bi bi-gem"></i> Mineralogy & geochemistry
+
+Characterising minerals and how microbes shape them.
+
+::: {.hv-skills}
+[µRaman spectroscopy]{.skill level=4 icon=soundwave}
+[µXRD]{.skill level=3 icon=bullseye note="micro X-ray diffraction"}
+[FTIR]{.skill level=3 icon=activity}
+[ICP-MS]{.skill level=2 icon=speedometer2}
+[SIMS]{.skill level=2 icon=crosshair note="secondary ion mass spectrometry"}
+[Sequential extraction & speciation]{.skill level=4 icon=funnel}
+[Synthesis of colloids & iron minerals]{.skill level=4 icon=hexagon}
+[UV-Vis assays]{.skill level=5 icon=droplet note="ferrozine, sulfide, silicomolybdate, sulfate turbidimetry"}
+[Thin-section micropetrography]{.skill level=3 icon=layers}
+[Lipid biomarker extraction]{.skill level=3 icon=filter-circle note="LC column"}
+[Zeta potential & magnetic susceptibility]{.skill level=3 icon=magnet}
+:::
+:::
+
+::: {.hv-card .hv-skillcard .c-cyan}
+### <i class="bi bi-eyeglasses"></i> Microscopy & imaging
+
+From thin sections to single cells.
+
+::: {.hv-skills}
+[SEM-EDX]{.skill level=4 icon=zoom-in note="minerals and microbes"}
+[Light & polarisation microscopy]{.skill level=4 icon=circle-half}
+[Epifluorescence microscopy]{.skill level=4 icon=brightness-high}
+[Synchrotron cryo 3D SIM-SXT]{.skill level=2 icon=box note="correlative 3D imaging"}
+:::
+:::
+
+::: {.hv-card .hv-skillcard .c-green}
+### <i class="bi bi-virus2"></i> Microbiology
+
+Growing and identifying the organisms behind the fossils.
+
+::: {.hv-skills}
+[Enrichment & pure-culture isolation]{.skill level=4 icon=egg}
+[Anoxic & sterile cultivation]{.skill level=5 icon=shield-check note="glovebox, laminar flow"}
+[CARD-FISH]{.skill level=3 icon=stars}
+[Flow cytometry]{.skill level=3 icon=bar-chart-steps}
+[Cloning & transformation]{.skill level=3 icon=intersect}
+:::
+:::
+
+::: {.hv-card .hv-skillcard .c-blue}
+### <i class="bi bi-diagram-3"></i> Molecular biology
+
+DNA-based identification of communities.
+
+::: {.hv-skills}
+[eDNA isolation & metabarcoding]{.skill level=4 icon=upc-scan}
+[PCR & gel electrophoresis]{.skill level=4 icon=distribute-vertical}
+[Sequence analysis]{.skill level=4 icon=text-left note="16S, 18S, ITS"}
+[Western blot & protein purification]{.skill level=2 icon=list-columns}
+:::
+:::
+
+::: {.hv-card .hv-skillcard .c-orange}
+### <i class="bi bi-compass"></i> Field work
+
+Sampling where microbes and minerals meet.
+
+::: {.hv-skills}
+[In-situ physicochemical measurements]{.skill level=4 icon=thermometer-half}
+[Sediment coring]{.skill level=3 icon=align-bottom}
+[Plankton-net filtration]{.skill level=4 icon=water}
+[Speleological mapping & caving]{.skill level=3 icon=lightning-charge}
+[Bathymetric mapping]{.skill level=2 icon=rulers}
+[Scientific diving]{.skill level=2 icon=life-preserver note="SSI Open Water Diver"}
+:::
+:::
+
+::: {.hv-card .hv-skillcard .c-red}
+### <i class="bi bi-hourglass-split"></i> Experiments, palaeoecology & ecotoxicology
+
+Simulating the past, testing the present.
+
+::: {.hv-skills}
+[Experimental diagenesis & HPHT autoclaves]{.skill level=5 icon=fire}
+[Palaeoenvironment reconstruction]{.skill level=3 icon=bricks note="biostratigraphy, lithological succession"}
+[Zebrafish embryotoxicity test]{.skill level=3 icon=bug}
+[Comet assay (genotoxicity)]{.skill level=3 icon=moon-stars}
+[Radiation protection]{.skill level=3 icon=radioactive note="certified training"}
+:::
+:::
+
+:::
+
+## Software & IT
+
+::: {.hv-grid .hv-skillgrid}
+
+::: {.hv-card .hv-skillcard .c-cyan}
+### <i class="bi bi-code-slash"></i> Programming & data
+
+::: {.hv-skills}
+[R]{.skill level=3 logo=r}
+[RStudio]{.skill level=3 logo=rstudioide}
+[Python]{.skill level=2 logo=python}
+[JavaScript]{.skill level=2 logo=javascript}
+[HTML & CSS]{.skill level=3 logo=html5}
+[YAML]{.skill level=3 logo=yaml}
+[Markdown & Quarto]{.skill level=3 logo=quarto note="this website"}
+[SQL]{.skill level=2 icon=database}
+:::
+:::
+
+::: {.hv-card .hv-skillcard .c-blue}
+### <i class="bi bi-hdd-network"></i> IT & infrastructure
+
+Group IT support and server administration.
+
+::: {.hv-skills}
+[IT support]{.skill level=4 icon=headset note="Geomicrobiology Group"}
+[Website & server databases]{.skill level=3 icon=server}
+[Git & GitHub]{.skill level=3 logo=github}
+[Docker containers]{.skill level=3 logo=docker}
+[NAS administration]{.skill level=3 icon=device-hdd}
+[Linux & HPC clusters]{.skill level=2 logo=linux note="Isabella cluster, SRCE Zagreb"}
+[Oracle]{.skill level=2 logo=oracle}
+:::
+:::
+
+::: {.hv-card .hv-skillcard .c-green}
+### <i class="bi bi-bezier2"></i> Bioinformatics
+
+::: {.hv-skills}
+[QIIME]{.skill level=3}
+[Mothur]{.skill level=3}
+[BLAST]{.skill level=4}
+[MEGA]{.skill level=3 note="phylogenetics"}
+[Clustal]{.skill level=3 note="sequence alignment"}
+[BioEdit]{.skill level=3}
+[SnapGene]{.skill level=3}
+:::
+:::
+
+::: {.hv-card .hv-skillcard .c-orange}
+### <i class="bi bi-map"></i> Maps, GIS & imaging
+
+::: {.hv-skills}
+[ArcGIS]{.skill level=3 logo=arcgis}
+[Google Earth]{.skill level=4 logo=googleearth}
+[Grapher]{.skill level=3}
+[ImageJ / Fiji]{.skill level=4 logo=imagej}
+[Adobe Creative Cloud]{.skill level=3 logo=adobecreativecloud note="Illustrator, Photoshop"}
+:::
+:::
+
+::: {.hv-card .hv-skillcard .c-purple}
+### <i class="bi bi-graph-up"></i> Statistics & mineral identification
+
+::: {.hv-skills}
+[Statistica]{.skill level=3}
+[PRIMER 6]{.skill level=3 note="multivariate ecology"}
+[Match!]{.skill level=3 note="XRD phase identification"}
+[CrystalSleuth]{.skill level=3 note="Raman spectra"}
+:::
+:::
+
+::: {.hv-card .hv-skillcard .c-yellow}
+### <i class="bi bi-cpu"></i> AI & productivity
+
+::: {.hv-skills}
+[LLM prompt engineering]{.skill level=4 icon=chat-square-text}
+[VS Code]{.skill level=3 icon=braces}
+:::
+:::
+
+:::
+
+## Languages & certificates
+
+::: {.hv-grid .hv-skillgrid}
+
+::: {.hv-card .hv-skillcard .c-cyan}
+### <i class="bi bi-translate"></i> Languages
+
+::: {.hv-skills}
+[Croatian]{.skill level=5 note="native"}
+[English]{.skill level=4 note="C1"}
+[German]{.skill level=1 note="A1"}
+[Italian]{.skill level=1 note="A1"}
+:::
+:::
+
+::: {.hv-card .hv-skillcard .c-green}
+### <i class="bi bi-patch-check"></i> Certificates
+
+::: {.hv-skills}
+[Open Water Diver (SSI)]{.skill icon=water}
+[Speleological caving course]{.skill icon=lightning-charge}
+[Radiation protection training]{.skill icon=radioactive}
+[Driving licence, category B]{.skill icon=car-front}
+:::
+:::
+
+:::

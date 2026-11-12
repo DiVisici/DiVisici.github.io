@@ -1,0 +1,11 @@
+---
+title: "New website is live"
+date: 2026-11-12
+description: "A home for my research, publications and fieldwork, built with Quarto and the Nord colour palette."
+categories: [news]
+---
+
+Welcome! This site collects my research on microbial fossilization, my publications, a web
+version of my CV, and photos from fieldwork. It is built with [Quarto](https://quarto.org)
+and hosted on GitHub Pages. Try the moon/sun toggle in the top bar to switch between dark
+and light mode.

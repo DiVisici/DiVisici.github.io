@@ -1,0 +1,29 @@
+---
+title: "Fieldwork"
+subtitle: "Mines, alpine streams, caves and islands"
+description: "Field campaigns by Hrvoje Višić: abandoned mines in the Black Forest, alpine streams in Engadin, caves and the Adriatic coast."
+toc: false
+---
+
+Much of my lab work starts outdoors: sampling microbial mats, iron deposits and water where
+they naturally form. Click a photo to enlarge it.
+
+<!-- To add a photo: put it in images/fieldwork/ and replace "images/placeholder.svg" below. -->
+
+::: {.hv-gallery}
+
+![**Abandoned mines** Hoffnungsstollen & Segen Gottes, Baden-Württemberg, Germany · 2023–2024](images/placeholder.svg){group="field" fig-alt="Placeholder for a photo from abandoned mine sampling"}
+
+![**Alpine streams** Engadin, Switzerland · 2022–2023](images/placeholder.svg){group="field" fig-alt="Placeholder for a photo from alpine stream sampling"}
+
+![**Lost Lake Landscapes of the Eastern Adriatic Shelf (LoLADRIA)** Telašćica Nature Park, Croatia · 2017](images/placeholder.svg){group="field" fig-alt="Placeholder for a photo from Telašćica Nature Park"}
+
+![**Developmental potentials of Croatian islands** Island of Cres, Croatia · 2016](images/placeholder.svg){group="field" fig-alt="Placeholder for a photo from the island of Cres"}
+
+![**Endemic cave fauna** *Marifugia cavatica* and *Eunapius subterraneus*, Tounj cave system, Croatia · 2016](images/placeholder.svg){group="field" fig-alt="Placeholder for a photo from the Tounj cave system"}
+
+![**Research camp** Papuk Nature Park, Croatia (Biology Students Association) · 2015](images/placeholder.svg){group="field" fig-alt="Placeholder for a photo from Papuk Nature Park"}
+
+![**Dinaric Glaciation workshop** Paklenica National Park, Croatia · 2014](images/placeholder.svg){group="field" fig-alt="Placeholder for a photo from Paklenica National Park"}
+
+:::

@@ -1,0 +1,527 @@
+/*-- scss:defaults --*/
+// Shared by both modes. Colours come from nord-dark.scss / nord-light.scss via --hv-* custom properties.
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-family-monospace: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+$line-height-base: 1.65;
+$headings-font-weight: 650;
+$border-radius: 0.5rem;
+$border-radius-lg: 0.85rem;
+$btn-border-radius: 999px;
+$btn-border-radius-lg: 999px;
+$btn-border-radius-sm: 999px;
+
+/*-- scss:rules --*/
+
+// ---------- Base ----------
+body {
+  font-feature-settings: "cv11", "ss01"; // Inter: single-storey a, open digits
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4 { letter-spacing: -0.015em; }
+h2 {
+  margin-top: 2.6rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--hv-border);
+}
+.title { font-weight: 750; letter-spacing: -0.025em; }
+.quarto-title .subtitle { color: var(--hv-muted); }
+::selection { background: var(--hv-accent); color: var(--hv-accent-ink); }
+a { text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
+.content a:not(.btn):not(.hv-card-link) { text-decoration-color: color-mix(in srgb, var(--hv-link) 45%, transparent); }
+.content a:not(.btn):hover { text-decoration-color: var(--hv-link); }
+
+// ---------- Slim utility bar ----------
+.navbar {
+  min-height: 3.1rem;
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+  border-bottom: 1px solid var(--hv-border);
+  box-shadow: none;
+}
+.navbar-brand .navbar-title {
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  font-size: 1.02rem;
+}
+.navbar-nav .nav-link { padding: 0.35rem 0.55rem !important; }
+.navbar-nav .nav-link .bi { font-size: 1.05rem; }
+// ORCID "iD" badge
+.navbar a.nav-link[href*="orcid.org"] .menu-text {
+  display: inline-grid;
+  place-items: center;
+  width: 1.15rem;
+  height: 1.15rem;
+  border-radius: 50%;
+  background: var(--hv-green);
+  color: var(--hv-bg);
+  font-size: 0.62rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+.quarto-color-scheme-toggle .bi { font-size: 1.1rem; }
+
+// ---------- Left sidebar ----------
+#quarto-sidebar {
+  border-right: 1px solid var(--hv-border);
+}
+.sidebar-header {
+  text-align: center;
+  padding: 1.6rem 0.75rem 0.6rem;
+}
+.hv-side-avatar,
+.sidebar-header img {
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 0 3px var(--hv-chrome), 0 0 0 5px var(--hv-accent);
+  margin-bottom: 0.9rem;
+}
+.hv-side-name {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--hv-strong);
+  margin: 0 0 0.15rem;
+}
+.hv-side-role {
+  font-size: 0.8rem;
+  color: var(--hv-muted);
+  line-height: 1.4;
+  margin: 0;
+}
+.hv-side-place {
+  font-family: $font-family-monospace;
+  font-size: 0.7rem;
+  color: var(--hv-accent);
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.sidebar-navigation .sidebar-item {
+  margin: 0.08rem 0;
+}
+.sidebar-navigation .sidebar-item-container .sidebar-link {
+  border-radius: 0.45rem;
+  padding: 0.38rem 0.75rem;
+  font-size: 0.93rem;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.sidebar-navigation .sidebar-link .bi,
+.sidebar-navigation .sidebar-link .menu-text .bi { margin-right: 0.55rem; opacity: 0.8; }
+.sidebar-navigation .sidebar-link:hover { background: var(--hv-glow); }
+.sidebar-navigation .sidebar-link.active {
+  background: var(--hv-glow);
+  box-shadow: inset 3px 0 0 var(--hv-accent);
+  font-weight: 600;
+}
+.sidebar-navigation .sidebar-divider,
+.sidebar-navigation hr { border-color: var(--hv-border); opacity: 1; margin: 0.6rem 0.75rem; }
+
+// ---------- Footer ----------
+.nav-footer { border-top: 1px solid var(--hv-border); font-size: 0.82rem; }
+
+// ---------- Buttons ----------
+.btn { font-weight: 550; padding-left: 1rem; padding-right: 1rem; }
+.btn .bi { margin-right: 0.35rem; }
+.hv-btn-ghost {
+  border: 1px solid var(--hv-border);
+  color: var(--hv-text);
+  background: transparent;
+}
+.hv-btn-ghost:hover { border-color: var(--hv-accent); color: var(--hv-accent); background: var(--hv-glow); }
+
+// ---------- Home hero ----------
+.hv-hero {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2.2rem;
+  align-items: center;
+  padding: 2.2rem 0 1.6rem;
+  position: relative;
+}
+.hv-hero::before { // soft "bioluminescent" glow behind the portrait
+  content: "";
+  position: absolute;
+  left: -40px;
+  top: -10px;
+  width: 340px;
+  height: 340px;
+  background: radial-gradient(circle, var(--hv-glow) 0%, transparent 65%);
+  pointer-events: none;
+  z-index: -1;
+}
+.hv-hero-photo {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 0 4px var(--hv-bg), 0 0 0 6px var(--hv-accent), var(--hv-shadow);
+}
+.hv-eyebrow {
+  font-family: $font-family-monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--hv-accent);
+  margin-bottom: 0.4rem;
+}
+.hv-hero h1 {
+  font-size: clamp(2rem, 4.4vw, 2.9rem);
+  font-weight: 780;
+  letter-spacing: -0.035em;
+  margin: 0 0 0.35rem;
+  border: 0;
+  color: var(--hv-strong);
+}
+.hv-hero .hv-role { color: var(--hv-muted); font-size: 1.05rem; margin-bottom: 0.9rem; }
+.hv-hero .hv-oneliner {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: var(--hv-text);
+  margin-bottom: 1.2rem;
+  max-width: 36em;
+}
+.hv-hero .hv-oneliner em { color: var(--hv-accent); font-style: normal; font-weight: 600; }
+.hv-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+@media (max-width: 767.98px) {
+  .hv-hero { grid-template-columns: 1fr; text-align: center; gap: 1.2rem; padding-top: 1rem; }
+  .hv-hero-photo { width: 160px; height: 160px; margin: 0 auto; }
+  .hv-hero::before { left: 50%; transform: translateX(-50%); }
+  .hv-hero .hv-oneliner { margin-left: auto; margin-right: auto; }
+  .hv-actions { justify-content: center; }
+}
+
+// ---------- Cards ----------
+.hv-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.4rem 0;
+}
+.hv-grid.hv-grid-2 { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.hv-card {
+  background: var(--hv-surface);
+  border: 1px solid var(--hv-border);
+  border-radius: 0.85rem;
+  padding: 1.1rem 1.2rem 1rem;
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  position: relative;
+}
+.hv-card:hover { border-color: color-mix(in srgb, var(--hv-accent) 55%, var(--hv-border)); box-shadow: var(--hv-shadow); }
+.hv-card > :last-child { margin-bottom: 0; }
+.hv-card h3, .hv-card h4, .hv-card .hv-card-title {
+  font-size: 1.02rem;
+  margin: 0 0 0.45rem;
+  color: var(--hv-strong);
+}
+.hv-card p, .hv-card li { font-size: 0.93rem; }
+.hv-card ul { padding-left: 1.1rem; margin-bottom: 0; }
+.hv-card .hv-card-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 0.6rem;
+  background: var(--hv-glow);
+  color: var(--hv-accent);
+  font-size: 1.05rem;
+  margin-bottom: 0.7rem;
+}
+.hv-card .hv-kicker {
+  font-family: $font-family-monospace;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--hv-muted);
+  margin-bottom: 0.35rem;
+}
+.hv-card-link { color: inherit; text-decoration: none; }
+.hv-card-link::after { content: ""; position: absolute; inset: 0; } // whole card clickable
+
+// Aurora accent stripes on cards
+.hv-card.c-cyan   { border-top: 3px solid var(--hv-accent); }
+.hv-card.c-green  { border-top: 3px solid var(--hv-green); }
+.hv-card.c-yellow { border-top: 3px solid var(--hv-yellow); }
+.hv-card.c-orange { border-top: 3px solid var(--hv-orange); }
+.hv-card.c-red    { border-top: 3px solid var(--hv-red); }
+.hv-card.c-purple { border-top: 3px solid var(--hv-purple); }
+.hv-card.c-green .hv-card-icon  { color: var(--hv-green); }
+.hv-card.c-yellow .hv-card-icon { color: var(--hv-yellow); }
+.hv-card.c-orange .hv-card-icon { color: var(--hv-orange); }
+.hv-card.c-red .hv-card-icon    { color: var(--hv-red); }
+.hv-card.c-purple .hv-card-icon { color: var(--hv-purple); }
+
+// ---------- Tags (topic chips, colour-coded with Aurora) ----------
+.hv-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.6rem 0 1rem; }
+.hv-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: $font-family-monospace;
+  font-size: 0.74rem;
+  padding: 0.18rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--tag, var(--hv-accent)) 45%, transparent);
+  background: color-mix(in srgb, var(--tag, var(--hv-accent)) 12%, transparent);
+  color: var(--tag, var(--hv-accent));
+  white-space: nowrap;
+}
+.hv-tag.sulfur  { --tag: var(--hv-yellow); }
+.hv-tag.iron    { --tag: var(--hv-orange); }
+.hv-tag.mars    { --tag: var(--hv-red); }
+.hv-tag.microbe { --tag: var(--hv-green); }
+.hv-tag.ocean   { --tag: var(--hv-accent); }
+.hv-tag.mineral { --tag: var(--hv-purple); }
+.hv-tag.tox     { --tag: var(--hv-frost-blue); }
+
+// ---------- Section lead / misc ----------
+.hv-lead { font-size: 1.12rem; color: var(--hv-text); line-height: 1.6; }
+.hv-muted { color: var(--hv-muted); }
+.hv-mono { font-family: $font-family-monospace; font-size: 0.85em; }
+
+// ---------- CV timeline ----------
+.hv-timeline {
+  position: relative;
+  margin: 1.2rem 0 1.6rem;
+  padding-left: 1.6rem;
+  border-left: 2px solid var(--hv-border);
+}
+.hv-tl-item {
+  position: relative;
+  padding-bottom: 1.3rem;
+}
+.hv-tl-item:last-child { padding-bottom: 0.2rem; }
+.hv-tl-item::before {
+  content: "";
+  position: absolute;
+  left: calc(-1.6rem - 7px);
+  top: 0.35rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--hv-bg);
+  border: 2px solid var(--hv-accent);
+}
+.hv-tl-item.current::before { background: var(--hv-accent); box-shadow: 0 0 0 4px var(--hv-glow); }
+.hv-date {
+  display: inline-block;
+  font-family: $font-family-monospace;
+  font-size: 0.74rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--hv-accent);
+  margin-bottom: 0.15rem;
+}
+.hv-tl-item h3, .hv-tl-item h4 { font-size: 1.04rem; margin: 0 0 0.15rem; color: var(--hv-strong); }
+.hv-tl-item .hv-where { color: var(--hv-muted); font-size: 0.92rem; margin-bottom: 0.3rem; }
+.hv-tl-item p, .hv-tl-item li { font-size: 0.94rem; }
+.hv-tl-item ul { margin-bottom: 0; padding-left: 1.1rem; }
+
+// ---------- Publications ----------
+.hv-pubs ol, .hv-pubs ul { list-style: none; padding-left: 0; counter-reset: pub; }
+.hv-pubs li {
+  position: relative;
+  padding: 0.8rem 0.9rem 0.8rem 4.2rem;
+  margin-bottom: 0.55rem;
+  border: 1px solid var(--hv-border);
+  border-radius: 0.7rem;
+  background: var(--hv-surface);
+  font-size: 0.93rem;
+  line-height: 1.55;
+}
+.hv-pubs li:hover { border-color: color-mix(in srgb, var(--hv-accent) 50%, var(--hv-border)); }
+.hv-pubs .hv-year {
+  position: absolute;
+  left: 0.8rem;
+  top: 0.85rem;
+  font-family: $font-family-monospace;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--hv-accent);
+}
+.hv-pubs strong { color: var(--hv-strong); }
+.hv-pubs .hv-ptitle { display: block; color: var(--hv-strong); font-weight: 600; margin-bottom: 0.15rem; }
+.hv-pubs .hv-status {
+  display: inline-block;
+  font-family: $font-family-monospace;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.05rem 0.45rem;
+  border-radius: 999px;
+  margin-left: 0.3rem;
+  border: 1px solid currentColor;
+}
+.hv-status.submitted { color: var(--hv-yellow); }
+.hv-status.prep { color: var(--hv-muted); }
+.hv-status.oral { color: var(--hv-green); }
+.hv-status.poster { color: var(--hv-purple); }
+.hv-status.award { color: var(--hv-orange); }
+
+// ---------- Stats strip ----------
+.hv-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 0.8rem;
+  margin: 1.2rem 0 0.4rem;
+}
+.hv-stat {
+  text-align: center;
+  padding: 0.8rem 0.4rem;
+  border-radius: 0.75rem;
+  background: var(--hv-surface);
+  border: 1px solid var(--hv-border);
+}
+.hv-stat .n {
+  display: block;
+  font-size: 1.7rem;
+  font-weight: 750;
+  letter-spacing: -0.03em;
+  color: var(--hv-accent);
+  line-height: 1.1;
+}
+.hv-stat .l { font-size: 0.78rem; color: var(--hv-muted); }
+
+// ---------- Fieldwork gallery ----------
+.hv-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1.2rem 0;
+}
+.hv-gallery .quarto-figure, .hv-gallery figure { margin: 0; }
+.hv-gallery img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 0.7rem;
+  border: 1px solid var(--hv-border);
+}
+.hv-gallery figcaption {
+  font-size: 0.83rem;
+  color: var(--hv-muted);
+  margin-top: 0.4rem;
+}
+.hv-gallery figcaption strong { color: var(--hv-strong); display: block; }
+
+// ---------- Callouts & tabsets ----------
+.callout { border-radius: 0.7rem; border-left-width: 4px !important; }
+.callout .callout-header { background: transparent !important; }
+.callout.callout-style-default { background: var(--hv-surface); }
+.panel-tabset .nav-tabs .nav-link.active { border-bottom-color: var(--hv-surface); }
+.panel-tabset .tab-content { background: transparent; }
+
+// ---------- Listings (News) ----------
+.quarto-listing-default .quarto-post { border-bottom: 1px solid var(--hv-border); }
+.quarto-post .listing-title { font-weight: 650; }
+.quarto-post .metadata .listing-date { font-family: $font-family-monospace; font-size: 0.78rem; color: var(--hv-accent); }
+.quarto-listing-category .category, .quarto-category {
+  font-family: $font-family-monospace;
+  font-size: 0.7rem !important;
+  border-radius: 999px !important;
+  border-color: var(--hv-border) !important;
+  color: var(--hv-muted) !important;
+}
+
+// ---------- Search overlay ----------
+.aa-Panel, .aa-Form { font-family: $font-family-sans-serif; }
+
+// ---------- Table of contents ----------
+#TOC .toc-actions, nav[role="doc-toc"] { font-size: 0.85rem; }
+nav[role="doc-toc"] > h2 {
+  border: 0;
+  font-family: $font-family-monospace;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--hv-muted);
+}
+
+// ---------- Print: make the CV page printable ----------
+@media print {
+  #quarto-header, #quarto-sidebar, #quarto-margin-sidebar, .nav-footer, .hv-actions { display: none !important; }
+  body { background: #fff; color: #000; }
+}
+
+// Pandoc wraps inline spans in <p>; let the spans join the parent grid/flex directly
+.hv-stats > p, .hv-tags > p { display: contents; }
+
+// Home page: the hero carries the name, so hide the default title block
+.hv-home #title-block-header { display: none; }
+.hv-home main.content { padding-top: 0; }
+
+// Page descriptions are for search engines / link previews; the subtitle already says it on-page
+#title-block-header .description { display: none; }
+.hv-pubs li > p { margin: 0; }
+.hv-tl-item > p:last-child { margin-bottom: 0; }
+
+// ---------- Skills & methods (rows produced by skills.lua) ----------
+.hv-card { --cat: var(--hv-accent); }
+.hv-card.c-green  { --cat: var(--hv-green); }
+.hv-card.c-yellow { --cat: var(--hv-yellow); }
+.hv-card.c-orange { --cat: var(--hv-orange); }
+.hv-card.c-red    { --cat: var(--hv-red); }
+.hv-card.c-purple { --cat: var(--hv-purple); }
+.hv-card.c-blue   { --cat: var(--hv-frost-blue); border-top: 3px solid var(--hv-frost-blue); }
+
+.hv-skillgrid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); align-items: start; }
+.hv-skillcard h3 {
+  display: flex; align-items: center; gap: 0.55rem;
+  font-size: 1.02rem; margin: 0 0 0.25rem; border: 0; padding: 0;
+}
+.hv-skillcard h3 .bi { color: var(--cat); font-size: 1.1rem; }
+.hv-skillcard > p:not(.hv-skills p) { font-size: 0.85rem; color: var(--hv-muted); margin-bottom: 0.6rem; }
+.hv-skills { display: flex; flex-direction: column; gap: 0.15rem; margin-top: 0.5rem; }
+.hv-skills > p { display: contents; }
+.hv-skill {
+  display: grid;
+  grid-template-columns: 1.9rem 1fr auto 4.9rem;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.38rem 0.45rem;
+  margin: 0 -0.45rem;
+  border-radius: 0.5rem;
+  transition: background 0.15s ease;
+}
+.hv-skill:hover { background: var(--hv-glow); }
+.hv-skill-mark {
+  width: 1.9rem; height: 1.9rem;
+  display: inline-grid; place-items: center;
+  border-radius: 0.5rem;
+  background: var(--hv-surface-2);
+  color: var(--hv-strong);
+  font-size: 0.95rem;
+}
+.hv-skill-mark svg { width: 1.05rem; height: 1.05rem; fill: currentColor; }
+.hv-skill:hover .hv-skill-mark { color: var(--cat); }
+.hv-skill-mark.mono {
+  font-family: $font-family-monospace;
+  font-size: 0.68rem; font-weight: 700; letter-spacing: -0.02em;
+  color: var(--hv-muted);
+}
+.hv-skill-text { display: flex; flex-direction: column; min-width: 0; line-height: 1.3; }
+.hv-skill-name { font-size: 0.9rem; color: var(--hv-text); }
+.hv-skill-note { font-size: 0.74rem; color: var(--hv-muted); }
+.hv-meter { display: grid; grid-template-columns: repeat(5, 0.95rem); gap: 3px; }
+.hv-meter i {
+  display: block; height: 0.42rem; border-radius: 999px;
+  background: color-mix(in srgb, var(--hv-muted) 22%, transparent);
+}
+.hv-meter i.on { background: var(--cat); }
+.hv-level {
+  font-family: $font-family-monospace;
+  font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.05em;
+  color: var(--hv-muted); text-align: right;
+}
+@media (max-width: 420px) {
+  .hv-skill { grid-template-columns: 1.9rem 1fr auto; }
+  .hv-level { display: none; }
+}
+.hv-legend { display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; font-size: 0.8rem; color: var(--hv-muted); margin: 0.4rem 0 1rem; }
+.hv-legend > p { display: contents; }
+.hv-legend .hv-skill { display: inline-grid; grid-template-columns: auto auto; padding: 0; margin: 0; gap: 0.4rem; }
+.hv-legend .hv-skill:hover { background: none; }
+.hv-legend .hv-skill-mark, .hv-legend .hv-skill-text { display: none; }
+
+.hv-legend { --cat: var(--hv-accent); }
